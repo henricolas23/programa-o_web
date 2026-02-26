@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=krona one& family=Monsterat:&display=swap');
+
+
+*{
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgb(230, 186, 43);
+    color: black;
+    
+
+}
+
+.titulo_destaque{
+    color: white;
+}
+
+.apresentacao{
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 10% 20%;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    flex: 1 0 auto; 
+
+}
+.apresentacao__conteudo__titulo{
+    font-size: 35px;
+    font-family: "krona one", sans-serif;
+    font-family: "Monsterat", sans-serif;
+
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+}
+
+.apresentacao__liks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    align-items: center;
+    gap : 20px;
+}
+
+
+
+
+
+
+.apresentacao__liks__links{
+    background-color: rgb(230, 186, 43);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "krona one", sans-serif;
+    font-family: "Monsterat", sans-serif;
+    transition: all 0.3s ease;
+}
+
+.apresentacao__liks__links:hover{
+    background-color: #272727;
+    color: black;
+    zoom: 1.05;
+
+}
+
+.rodape{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    flex-shrink: 0;
+    position: fixed center;
+    width: 100%;
+    flex-direction: column;
+}
