@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0b1020, #111a35, #1b2a52);
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.container {
+  width: min(960px, 92%);
+  margin: 30px auto;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 18px;
+  padding: 28px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2 {
+  margin-bottom: 16px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.subtitle {
+  color: #c8d4ff;
+  margin-bottom: 24px;
+}
+
+.btn {
+  background: #e62429;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.2s;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #b71c1c;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background: #3a4a75;
+}
+
+.btn-secondary:hover {
+  background: #2d395b;
+}
+
+.hidden {
+  display: none;
+}
+
+.question-box {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 20px;
+  border-radius: 14px;
+}
+
+.progress {
+  margin-bottom: 14px;
+  color: #ffd166;
+  font-weight: bold;
+}
+
+.question-title {
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+
+.options {
+  display: grid;
+  gap: 12px;
+}
+
+.option {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid transparent;
+  padding: 14px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.option:hover {
+  border-color: #ffd166;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.option.selected {
+  border-color: #00d4ff;
+  background: rgba(0, 212, 255, 0.16);
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+.result-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: center;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.result-card img {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 2px solid rgba(255, 255, 255, 0.12);
+}
+
+.score-title {
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+
+.score-list {
+  padding-left: 18px;
+}
+
+.score-list li {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .result-card {
+    grid-template-columns: 1fr;
+  }
+}
