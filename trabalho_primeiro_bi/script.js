@@ -88,17 +88,17 @@ document.addEventListener("DOMContentLoaded", () => {
     new Character(
       "Homem de Ferro",
       "Você é estratégico, racional e gosta de resolver problemas com inteligência, inovação e iniciativa.",
-        "img/homem-de-ferro.jpg"
+      "https://upload.wikimedia.org/wikipedia/pt/5/59/Iron_Man_%282020%29.png"
     ),
     new Character(
       "Capitão América",
       "Você tem forte senso de justiça, disciplina e lealdade. Inspira confiança e mantém seus valores.",
-      "img/capitao-america.jpg"
+      "https://imgix.bustle.com/inverse/11/91/65/66/aa08/4ef6/be12/964b648601b6/captain-america-the-winter-soldier.jpeg?w=400&h=300&fit=crop&crop=faces&dpr=2"
     ),
     new Character(
       "Thor",
       "Você é intenso, confiante e movido por coragem. Tem presença forte e enfrenta desafios sem recuar.",
-      "img/thor.jpg"
+      "https://www.einerd.com/wp-content/uploads/2019/06/thor-gordo-ultimato-e1560438055720.jpg"
     )
   ];
 
