@@ -17,6 +17,11 @@ app.get('/', (req, res) => {
     //cd projeto-crud/public/index.html
 })
 
+//puxar o arquivo api
+const apiRoutes = require('./routes/api');
+app.use(express.json());
+app.use('/api/users', apiRoutes);
+
 app.listen(port, () => {
   console.log(`Servidor funcionando ${port}`)
 })
